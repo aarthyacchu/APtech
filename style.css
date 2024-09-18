@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -5,3 +6,82 @@
     box-sizing: border-box;
 }
 
+.header-section{
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img{
+    height: 13vh;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+    padding-left: 50px;
+}
+
+.hero-section{
+    color:aliceblue;
+    position: relative;
+}
+
+.hero-section img{
+    filter: brightness(50%);
+    width: 100%;
+    position: absolute;
+    width: 100%;
+    /* height: 100%; */
+    object-fit: cover; /* Ensure the image covers the container */
+    z-index: -1; /* Place image behind text */
+    opacity: 5;
+}
+
+.hero-section h1 {
+    font-family:  'Inter';
+    font-size: 88px;
+    font-weight: 500;
+    text-align: center; 
+    padding-top: 15%;
+    line-height: 1;
+    color: #fefefe;
+}
+
+.hero-section p{
+    color:#fefefe;
+    font-size: 16px;
+    padding-top: 25px;
+    font-weight: 400;
+    line-height: 26.4px;
+}
+
+.cta a{
+    text-decoration: none;
+    background-color: #fefefe;
+    padding: 20px 60px  ;
+    color: black;
+    border-radius: 7px;
+
+}
+
+.cta{
+    margin-top: 5rem;
+}
+
+.partnership{
+    /* padding: 20px; */
+    margin-top: 30%;
+    display:flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+.partnership-sec img{
+    height: 15vh;
+    width: 15vh;
+    border: 2px solid black;
+    border-radius: 50%;
+    /* image-resolution:;    */
+}
