@@ -375,18 +375,18 @@ html {
 
 .cards {
     display: flex;
-    flex-wrap: wrap; 
+    /* flex-wrap: wrap;  */
     /* wrap  */
     justify-content: space-around;
     gap: 30px;
-    padding: 20px;
+    /* padding: 20px; */
     max-width: 1200px;
     margin: 0 auto;
 }
 
 .value p{
     text-align: center;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     line-height:1.5;
     color: #333;
     height: 0 auto;
@@ -394,6 +394,7 @@ html {
 }
 
 .value i{
+
     text-align: center;
     font-size: 2rem;
     margin-bottom: 15px;
