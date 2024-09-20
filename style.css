@@ -375,11 +375,11 @@ html {
 
 .cards {
     display: flex;
-    /* flex-wrap: wrap;  */
+    flex-wrap: wrap; 
     /* wrap  */
     justify-content: space-around;
     gap: 30px;
-    /* padding: 20px; */
+    padding: 20px;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -519,15 +519,26 @@ iframe {
     border: none;
 }
 
+/* .footer {
+    padding: 2rem 1rem;
+    background-color: hsl(210, 17%, 98%);
+    width: 0 auto;
+} */
+
 .footer {
+    display: flex;
+    justify-content: center;  /* Horizontally centers content */
+    align-items: center;      /* Vertically centers content */
+    flex-direction: column;   /* Ensures content stacks vertically if needed */
     padding: 2rem 1rem;
     background-color: #f8f9fa;
-    /* width: 100%; */
+    text-align: center;       /* Ensures text is centered */
+    width: 0 auto;
 }
 
 .footer p {
     height: 100%;
-    width: 100%;
+    width: 0 auto;
     color: #555;
     text-align: center;
     font-size: 0.9rem;
@@ -590,11 +601,6 @@ iframe {
     .menu a {
         padding-left: 10px; /* Further reduce padding on small screens */
         font-size: 0.9rem;
-    }
-
-    .hero-section img{
-        object-fit:contain; /* Ensure the image covers the container */
-        z-index: -1; /* Place image behind text */
     }
 
     .hero-section h1 {
