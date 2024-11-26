@@ -6,29 +6,27 @@ require 'vendor/autoload.php';
 
 // Check if the form is submitted
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    // Capture form data
-    $name = $_POST['name'];  // Ensure the form input field has 'name' attribute set
-    $email = $_POST['email']; // Ensure the form input field has 'email' attribute set
-    $message = $_POST['message']; // Ensure the form input field has 'message' attribute set
+    $name = $_POST['name'];  
+    $email = $_POST['email']; 
+    $message = $_POST['message']; 
 
     $mail = new PHPMailer(true);
 
     try {
-        // Server settings
         $mail->isSMTP();
-        $mail->Host = 'smtp.gmail.com'; // Use Gmail's SMTP server
+        $mail->Host = 'smtp.gmail.com'; 
         $mail->SMTPAuth = true;
-        $mail->Username = 'aarthyacchu595@gmail.com'; // Your Gmail address
-        $mail->Password = 'zmgb fwom nyto bixn'; // App Password for Gmail
+        $mail->Username = 'aarthyacchu595@gmail.com'; 
+        $mail->Password = 'zmgb fwom nyto bixn'; 
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port = 587;
 
         // Recipients
         $mail->setFrom('your-email@gmail.com', 'Your Name');
-        $mail->addAddress('aarthyacchu595@gmail.com'); // Recipient's email address
+        $mail->addAddress('aarthyacchu595@gmail.com'); 
 
         // Content
-        $mail->isHTML(false); // Set email format to plain text
+        $mail->isHTML(false); 
         $mail->Subject = 'New Contact Form Submission';
         $mail->Body = "Name: $name\nEmail: $email\nMessage:\n$message";
 

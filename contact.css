@@ -39,8 +39,6 @@
     justify-content: center;
     margin: 2rem 1rem;
     padding: 2rem 0;
-    /* background-color: #f9f9f9; */
-    /* width: 100%; */
 }
 
 .contact-info {
@@ -68,7 +66,6 @@
     max-width: 800px; /* Increased from 500px */
     margin: 0 auto; /* Center the form container */
 }
-
 
 form {
     display: flex;
@@ -127,20 +124,14 @@ iframe {
     border: none;
 }
 
-/* .footer {
-    padding: 2rem 1rem;
-    background-color: hsl(210, 17%, 98%);
-    width: 0 auto;
-} */
-
 .footer {
     display: flex;
-    justify-content: center;  /* Horizontally centers content */
-    align-items: center;      /* Vertically centers content */
-    flex-direction: column;   /* Ensures content stacks vertically if needed */
+    justify-content: center;  
+    align-items: center;
+    flex-direction: column;  
     padding: 2rem 1rem;
     background-color: #f8f9fa;
-    text-align: center;       /* Ensures text is centered */
+    text-align: center;   
     width: 0 auto;
 }
 
@@ -152,7 +143,6 @@ iframe {
     font-size: 0.9rem;
 }
 
-/* Responsive adjustments */
 @media (min-width: 768px) {
     .contact-us {
         flex-direction: row;
@@ -202,17 +192,15 @@ iframe {
     }
 }
 
-/* for smaller screen  */
-
 @media (max-width: 600px) {
 
     .menu a {
-        padding-left: 10px; /* Further reduce padding on small screens */
+        padding-left: 10px; 
         font-size: 0.9rem;
     }
 
     .hero-section h1 {
-        font-size: 10vw; /* Adjust font size for very small screens */
+        font-size: 10vw;
         padding-top: 15vh;
     }
 
@@ -226,7 +214,7 @@ iframe {
     }
 
     .icon {
-        flex: 1 1 100%; /* Stack icons vertically on small screens */
+        flex: 1 1 100%; 
         max-width: 100%;
     }
 
