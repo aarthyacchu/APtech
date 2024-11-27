@@ -1,103 +1,102 @@
 
 # Aphrodite Technology Website
 
-This project is a responsive IT Services website created using HTML, CSS. The website is designed to provide essential information about IT services, including an introduction to the company, services offered, and a contact form with a map for location information.
+This repository contains the source code for the Aphrodite Technology website. The website showcases the company's IT infrastructure services, partnerships, and contact information.
+
+
 
 
 ## Features
 
-- Responsive Design: The website adjusts its layout on different devices (mobile, tablet, desktop).
+### 1. **Responsive Design**  
+   - Adapts seamlessly to desktops, tablets, and mobile devices.  
+   - Optimized layout for different screen sizes using CSS media queries.
 
-- Navigation Bar: A smooth scroll functionality allowing users to navigate between sections.
-- Hero Section: A large image banner with a headline and CTA (Call to Action) button.
-- Service Section: A section detailing the services offered by the IT company with icons.
-- About Us Section: Information about the company with an introduction.
-- Partners Section: A horizontal scrolling section displaying partner logos.
-- Contact Us Section: A contact form for inquiries with a map showing the company's location.
-- Footer: A footer with essential links and centered content.
+### 2. **Hero Section**  
+   - A visually appealing banner featuring the company's services.  
+   - Background image and introductory text about IT infrastructure services.
 
+### 3. **About Us Section**  
+   - Overview of Aphrodite Technology’s mission and vision.  
+   - Explanation of the company’s core values and expertise in IT services.
 
-## Tech Stack
+### 4. **Partners Section**  
+   - Scrolling carousel displaying partner company logos like TCS, Lenovo, HP, and more.  
+   - Logos are clickable and displayed in a sleek horizontal layout.
 
-- HTML5: Markup language for structuring the website content.
+### 5. **Services Section**  
+   - Describes the primary IT services offered using icons from Font Awesome.  
+   - User-friendly and visually organized list of services.
 
-- CSS3: For styling the website with Flexbox, Grid, and responsive media queries.
-
-
-## Usage
-
-- The navigation bar allows users to scroll to different sections of the page. Clicking on "About Us", "Services", or "Contact Us" will smoothly scroll to the respective section.
-
-- The services section showcases the services offered by the company with icons and descriptions.
-
-- The contact form enables visitors to submit inquiries. It includes fields for name, email, and a message.
-
-- The embedded Google Maps iframe shows the company’s location.
+### 6. **Contact Section**  
+   - Embedded Google Map showing the exact location of the company.  
+   - Contact form to submit inquiries (handled by `contact.php`).
 
 
-## Section overview
 
-- Header: Contains the company logo and navigation links.
-- Hero Section: A large banner with a company tagline and CTA button.
-- Services Section: Highlights services in a grid format, each with an icon and description.
-- About Us Section: Provides an overview of the company's mission and values.
-- Partners Section: A scrolling carousel of partner logos.
-- Contact Us Section: A form for submitting inquiries with a Google Maps location iframe.
-- Footer: Contains contact information and links to social media or other resources.
+## Technologies Used
 
+1. **Frontend:**
+   - HTML5: Structuring the content.
+   - CSS3: Styling and layout design.
+   - Google Fonts: Custom fonts for a modern aesthetic.
+   - Font Awesome: Icons for enhanced visual appeal.
+   
+2. **Backend:**
+   - PHP: Handling form submissions in the `contact.php` file.
 
-## Customization
+3. **External Services:**
+   - Google Maps Embed API: Display the company's location interactively.
+---
 
-- You can easily change the content of the hero section, services, and footer by editing the index.html file.
+## Installation & Usage
 
-- Update styles and responsiveness in the styles.css file.
+To run the project locally, follow these steps:
 
+### Prerequisites:
+- A web browser (Google Chrome, Firefox, etc.).
+- A local web server (such as XAMPP or WAMP for handling PHP).
 
-## Smooth Scroll Feature
+### Steps:
 
-The navigation menu links are designed to smoothly scroll to different sections within the same page. This is implemented using CSS3, linking the IDs of the sections with the corresponding navigation items.
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/aarthyacchu/APtech
+    ```
 
+2. **Open the project folder:**
 
-## Example
+   ```bash
+   cd aphroditetechnonogy
 
-- index.html file
+    ```
+3. **Start a local server (for PHP support):**
+Place the project folder in the htdocs directory if using XAMPP.
+Run the Apache server from your control panel.
 
-        <section id="about" class="about-us">
-            <h1>About Us</h1>
-            <p>We are a company that values ...</p>
-        </section>
+4. **Access the website:**
+Open your web browser and navigate to 
+http://localhost/aphroditetechnonogy/index.html.
+## Screenshots
 
-- style.css file
+1. HOME PAGE:
 
-        html {
-            scroll-behavior: smooth;
-        }
+![image](https://github.com/user-attachments/assets/112469e3-3461-44e9-9781-d578f2346d50)
 
+2. ABOUT SECTION:
 
-## Logo
+![image](https://github.com/user-attachments/assets/8e9e1b90-bc38-404a-9e64-c846b057c012)
 
-![APtech-logo](https://github.com/user-attachments/assets/25b0411c-baaa-4828-bc14-abc67daa6177)
+3. SERVICE SECTION:
+![image](https://github.com/user-attachments/assets/1be9e3eb-7bc4-4169-9bd4-f183d9280921)
 
-# Screenshots
+![image](https://github.com/user-attachments/assets/5650b26f-f622-43c7-9882-705c229b1e8c)
 
+4. CONTACT SECTION:
+![image](https://github.com/user-attachments/assets/438b98c3-4f09-4b67-8b49-ae3631dd7c56)
 
-## Header & hero section
+![image](https://github.com/user-attachments/assets/766b5705-6c0d-40bf-9507-6a5182fda6c1)
 
-![image](https://github.com/user-attachments/assets/a8781aaf-73c2-439c-ac1c-d400cec35724)
-
-## Main Section
-
-![image](https://github.com/user-attachments/assets/511c7460-22f0-4b3b-a9d8-fc4fce3ce474)
-
-![image](https://github.com/user-attachments/assets/1bd4ad61-a157-4b50-b046-6cb36f121f76)
-
-![image](https://github.com/user-attachments/assets/19db8ade-668b-4676-8d68-5ef8c057ddc6)
-
-![image](https://github.com/user-attachments/assets/7af7282c-2968-4986-8682-29478eefccb4)
-
-## Footer Section
-
-![image](https://github.com/user-attachments/assets/7dd70114-6f7d-4348-8573-0827fbb2c2f7)
 
 
 
